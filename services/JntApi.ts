@@ -1,8 +1,6 @@
 import axios from "axios";
 import { JNTCredentials } from "interfaces/jnt";
 
-require("dotenv").config();
-
 export const getJntApi = (JNTCredentials: JNTCredentials) => {
   if (!JNTCredentials.accessToken) {
     throw new Error("Missing JNT Access Token");
