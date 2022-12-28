@@ -1,0 +1,25 @@
+{
+  "name": "kapy-marketplace-services",
+  "version": "1.0.0",
+  "description": "Uses axios to call other marketplace APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapybaratech/marketplace-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapybaratech/marketplace-services/issues"
+  },
+  "homepage": "https://github.com/kapybaratech/marketplace-services#readme",
+  "dependencies": {
+    "@aws-sdk/lib-dynamodb": "^3.238.0",
+    "aws4-axios": "^2.4.9",
+    "axios": "^1.2.1"
+  }
+}
