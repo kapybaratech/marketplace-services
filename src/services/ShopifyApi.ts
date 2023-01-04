@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ShopifyCredentials } from "interfaces/shopify";
+import { ShopifyCredentials } from "./../interfaces/shopify";
 
 export const getShopifyApi = (credentials: ShopifyCredentials) => {
   return axios.create({

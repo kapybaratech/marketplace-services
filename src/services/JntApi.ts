@@ -1,5 +1,5 @@
 import axios from "axios";
-import { JNTCredentials } from "interfaces/jnt";
+import { JNTCredentials } from "./../interfaces/jnt";
 
 export const getJntApi = (JNTCredentials: JNTCredentials) => {
   if (!JNTCredentials.accessToken) {

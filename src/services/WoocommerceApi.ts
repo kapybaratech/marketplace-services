@@ -1,5 +1,5 @@
 import axios from "axios";
-import { WoocommerceCredentials } from "interfaces/woocommerce";
+import { WoocommerceCredentials } from "./../interfaces/woocommerce";
 
 export const getWoocommerceApi = (credentials: WoocommerceCredentials) => {
   return axios.create({

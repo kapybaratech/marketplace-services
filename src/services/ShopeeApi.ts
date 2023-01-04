@@ -1,6 +1,6 @@
 import Axios, { AxiosInstance, AxiosRequestConfig } from "axios";
 import { createHmac } from "crypto";
-import { ShopeeCredentials } from "interfaces/shopee";
+import { ShopeeCredentials } from "./../interfaces/shopee";
 
 const baseURL = "https://partner.shopeemobile.com";
 

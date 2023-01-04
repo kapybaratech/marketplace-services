@@ -1,6 +1,6 @@
 import Axios, { AxiosInstance } from "axios";
 import { createHmac } from "crypto";
-import { LazadaCredentials } from "interfaces/lazada";
+import { LazadaCredentials } from "./../interfaces/lazada";
 
 const baseURL = "https://api.lazada.sg/rest";
 
